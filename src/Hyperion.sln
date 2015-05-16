@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hyperion.Core", "Hyperion.Core\Hyperion.Core.csproj", "{FC501682-18B3-4E0C-BADC-880181A89A4A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{565D357A-CC44-4197-AAED-0DDEDFD974CF}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hyperion.Http", "Hyperion.Http\Hyperion.Http.csproj", "{ACA777C1-4E5C-4A3D-97DC-E56D1FA33B0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{FDC5F5B4-DCD9-4067-9F75-9EDDB8F88648}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C8017817-17FD-422C-ADA8-B927FD9B17C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{436FDF1E-19E1-4029-BA73-903543619CDD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC501682-18B3-4E0C-BADC-880181A89A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC501682-18B3-4E0C-BADC-880181A89A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC501682-18B3-4E0C-BADC-880181A89A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC501682-18B3-4E0C-BADC-880181A89A4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACA777C1-4E5C-4A3D-97DC-E56D1FA33B0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACA777C1-4E5C-4A3D-97DC-E56D1FA33B0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACA777C1-4E5C-4A3D-97DC-E56D1FA33B0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACA777C1-4E5C-4A3D-97DC-E56D1FA33B0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FC501682-18B3-4E0C-BADC-880181A89A4A} = {FDC5F5B4-DCD9-4067-9F75-9EDDB8F88648}
+		{ACA777C1-4E5C-4A3D-97DC-E56D1FA33B0E} = {FDC5F5B4-DCD9-4067-9F75-9EDDB8F88648}
+	EndGlobalSection
+EndGlobal
